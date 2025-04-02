@@ -9,8 +9,8 @@ const route = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route path='' element={<App/>} />
-      <Route path='recipe/:id' element={<Meal/>}  />
-    </Route>
+      <Route path='recipe/:id' element={<Meal/>} />
+   </Route>
   )
 )
 createRoot(document.getElementById('root')).render(
